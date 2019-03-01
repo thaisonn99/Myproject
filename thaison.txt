@@ -1,3 +1,7 @@
 3/3/2019
 thay doi 1
+<<<<<<< HEAD
 thay doi 3
+=======
+thay doi 2
+>>>>>>> f8bda8a436bdbc193ed5e5fdb9240e7c26d68a90
