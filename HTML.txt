@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<style>
+			.menu {
+				background-color: #5f5f5f;
+				overflow: hidden;
+			}
+			.menu a{
+				display: inline-block;
+				font-size: 20px;
+				color: white;
+				padding: 10px;
+				float: left;
+			}
+			.menu a:hover{
+				background-color: black;
+			}
+			.scrollmenu {
+				background-color:light-gray;
+				width: 200px;
+				height: 700px;
+				overflow: auto;
+			}
+			.scrollmenu a{
+				color:black;
+				display: block;
+				padding:2px 1px 1px 16px;
+				font-size: 18px;
+				text-decoration: none
+			}
+			.scrollmenu a:hover{
+				background-color: green;
+			}
+			hr {
+				border-top-color: rgb(238, 238, 238);
+				border-top-style: solid;
+				border-top-width: 1px;
+				border-right-color: initial;
+				border-right-style: initial;
+				border-right-width: 0px;
+				border-bottom-color: initial;
+				border-bottom-style: initial;
+				border-bottom-width: 0px;
+				border-left-color: initial;
+				border-left-style: initial;
+				border-left-width: 0px;
+				border-image-source: initial;
+				border-image-slice: initial;
+				border-image-width: initial;
+				border-image-outset: initial;
+				border-image-repeat: initial;
+				border-top-width: 1px;
+				border-top-style: solid;
+				border-top-color: rgb(238, 238, 238);
+				margin-top: 20px;
+				margin-right: 0px;
+				margin-bottom: 20px;
+				margin-left: 0px;
+			}
+			.button{
+				border-top-color: initial;
+				border-top-style: none;
+				border-top-width: initial;
+				border-right-color: initial;
+				border-right-style: none;
+				border-right-width: initial;
+				border-bottom-color: initial;
+				border-bottom-style: none;
+				border-bottom-width: initial;
+				border-left-color: initial;
+				border-left-style: none;
+				border-left-width: initial;
+				border-image-source: initial;
+				border-image-slice: initial;
+				border-image-width: initial;
+				border-image-outset: initial;
+				border-image-repeat: initial;
+				padding-top: 8px;
+				padding-right: 16px;
+				padding-bottom: 8px;
+				padding-left: 16px;
+				vertical-align: middle;
+				overflow-x: hidden;
+				overflow-y: hidden;
+				text-align: center;
+				cursor: pointer;
+			}
+			h4 {
+				display: block;
+				margin-block-start: 1.33em;
+				margin-block-end: 1.33em;
+				margin-inline-start: 0px;
+				margin-inline-end: 0px;
+				text-align:center;
+			}
+		</style>
+		<body>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="menu">
+						<div class="col-xs-8 col-sm-8 col-md-8">
+							<a href="#"><i class="fas fa-home"></i></a>
+							<a href="#">HTML</a>
+							<a href="#">CSS</a>
+							<a href="#">JAVASCRIPT</a>
+							<a href="#">SQL</a>
+							<a href="#">PHP</a>
+							<a href="#">BOOTSTRAP</a>
+							<a href="#">HOW TO</a>
+							<a href="#">MORE<i class="fas fa-caret-down"></i></a>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4" style="float:right;">
+							<a href="#">REFERENCES<i class="fas fa-caret-down"></i></a>
+							<a href="#">EXERCISES<i class="fas fa-caret-down"></i></a>
+							<a href="#"><i class="fas fa-globe-americas"></i></a>
+							<a href="#"><i class="fas fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-2 col-sm-2 col-md-2">
+						<div class="scrollmenu">
+							<h3>HTML5 Tutorial</h3>
+							<a>HTML HOME</a>
+							<a>HTML Introduction</a>
+							<a>HTML Editor</a>
+							<a>HTML Basic</a>
+							<a>HTML Elements</a>
+							<a>HTML Attributes</a>
+							<a>HTML Heading</a>
+							<a>HTML Paragraphs</a>
+							<a>HTML Styles</a>
+							<a>HTML Formatting</a>
+							<a>HTML Quotations</a>
+							<a>HTML Comments</a>
+							<a>HTML Colors</a>
+							<a>HTML CSS</a>
+							<a>HTML Links</a>
+							<a>HTML Images</a>
+							<a>HTML Tables</a>
+							<a>HTML List</a>
+							<a>HTML Blocks</a>
+							<a>HTML Classes</a>
+							<a>HTML Id</a>
+							<a>HTML Iframe</a>
+							<a>HTML Javascript</a>
+							<a>HTML File Paths</a>
+							<a>HTML Head</a>
+							<a>HTML XHTML</a>
+							<a>HTML Layout</a>
+							<a>HTML Responsive</a>
+							<a>HTML Computercode</a>
+							<a>HTML Entities</a>
+							<a>HTML Symbols</a>
+							<a>HTML Charset</a>
+							<a>HTML Symbols</a>
+							<a>HTML Charset</a>
+							<a>HTML URL Encode</a>
+							<a>HTML Colors</a>
+							<a>HTML CSS</a>
+							<a>HTML Links</a>
+							<a>HTML Images</a>
+							<a>HTML Tables</a>
+							<a>HTML List</a>
+							<a>HTML Blocks</a>
+							<a>HTML Classes</a>
+							<a>HTML Id</a>
+							<a>HTML Iframe</a>
+							<a>HTML Javascript</a>
+							<a>HTML File Paths</a>
+							<a>HTML Head</a>
+							<a>HTML XHTML</a>
+							<a>HTML Layout</a>
+							<a>HTML Responsive</a>
+							<a>HTML Computercode</a>
+							<a>HTML Entities</a>
+							<a>HTML Symbols</a>
+							<a>HTML Charset</a>
+							<a>HTML Symbols</a>
+							<a>HTML Charset</a>
+							<a>HTML URL Encode</a>
+						</div>
+					</div
+				</div>
+				<div class="col-xs-10 col-sm-10 col-md-10">
+					
+					<div class="container-fluid">
+						<hr>
+						<div class="row">
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<a class="button" style="display: block;width: 100%;color: #000!important;background-color: #f1f1f1!important;white-space:nowrap;text-decoration:none;margin-top:1px;margin-bottom:1px;background-color:light-gray;text-align:center;">REPORT ERROR</a>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<a class="button" style="display: block;width: 100%;color: #000!important;background-color: #f1f1f1!important;white-space:nowrap;text-decoration:none;margin-top:1px;margin-bottom:1px;background-color:light-gray;text-align:center;">PRINT PAGE</a>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<a class="button" style="display: block;width: 100%;color: #000!important;background-color: #f1f1f1!important;white-space:nowrap;text-decoration:none;margin-top:1px;margin-bottom:1px;background-color:light-gray;text-align:center;">FORUM</a>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3">
+								<a class="button" style="display: block;width: 100%;color: #000!important;background-color: #f1f1f1!important;white-space:nowrap;text-decoration:none;margin-top:1px;margin-bottom:1px;background-color:light-gray;text-align:center;">ABOUT</a>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-xs-3 col-sm-3 col-md-3" style="text-align:center;">
+								<h4>Top Tutorials</h4><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">HTML Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">CSS Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">JavaScript Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">How To Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">W3.CSS Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Bootstrap Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">SQL Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">PHP 5 Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">PHP 7 Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">jQuery Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Python Tutorial</a><br>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3" style="text-align:center;">
+								<h4>Top References</h4><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">HTML Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">CSS Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">JavaScript Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">W3.CSS Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Bootstrap Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">SQL Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">PHP Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">HTML Colors</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">jQuery Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Python Reference</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Angular Reference</a><br>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3" style="text-align:center;">
+								<h4>Top Examples</h4><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">HTML Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">CSS Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">JavaScript Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">How To Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">W3.CSS Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Bootstrap Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">SQL Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">PHP 5 Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">PHP 7 Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">jQuery Tutorial</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">XML Examples</a><br>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3"style="text-align:center;">
+								<h4>Web Certificates</h4><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">HTML Certificate</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">CSS Certificate</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">JavaScript Certificate</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">jQuery Certificate</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">PHP Certificate</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">Bootstrap Certificate</a><br>
+								<a style="line-height: 1.5;background-color: transparent;text-align: center!important;font-size: 12px!important;color: inherit;">XML Certificate</a><br><br>
+								<button style="color: #fff!important;background-color: #616161!important;padding-top: 8px;padding-right: 16px;padding-bottom: 8px;padding-left: 16px;">Get Certified »</button>
+							</div>
+						</div>
+						<hr>
+						<div class="row" style="text-align: center!important;font-size: 12px!important;opacity: 0.60;box-sizing: inherit;color: #000!important;display: block;line-height: 1.5;    font-family: Verdana,sans-serif;">
+								W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding.
+								Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.
+								While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2019 by Refsnes Data. 
+								All Rights Reserved.<br>
+								<a style="text-align:center; color:inherit;">Powered by W3.CSS.</a><br><br>
+						</div>
+						<div class="row" style="text-align: center">
+							<img style="vertical-align: middle;width: 150px;height: 28px;" src="C:\Users\LaptopAZ.vn\Pictures\Camera Roll\w3schoolscom_gray.gif"></img>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</body>
+	</head>
+</html>
