@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xin chào Heo Xanh</title>
+    <style>
+        /* CSS để tạo giao diện đẹp và cân đối */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Phần giao diện -->
+    <div class="container">
+        <h1 id="question">HI có muốn nhận 10 triệu không</h1>
+        <button id="yes-btn">YES</button>
+        <button id="no-btn">NO</button>
+    </div>
+
+    <!-- Giao diện thông báo -->
+    <div id="congrats" class="hidden">
+        <h1>Anh biết là HI không thích tiền mà =))</h1><br>
+	<h1>Cảm ơn Hi</h1>
+    </div>
+
+    <script>
+        // JavaScript xử lý logic
+        const yesBtn = document.getElementById('yes-btn');
+        const noBtn = document.getElementById('no-btn');
+        const container = document.querySelector('.container');
+        const congrats = document.getElementById('congrats');
+
+        // Hàm tạo vị trí ngẫu nhiên trong phạm vi màn hình
+        function randomPosition() {
+            const maxWidth = window.innerWidth - 100; // Trừ kích thước của button
+            const maxHeight = window.innerHeight - 50; // Trừ kích thước của button
+            const x = Math.random() * maxWidth;
+            const y = Math.random() * maxHeight;
+            return { x, y };
+        }
+
+        // Xử lý khi click vào YES
+        yesBtn.addEventListener('mouseover', () => {
+            const position = randomPosition();
+            yesBtn.style.position = 'absolute';
+            yesBtn.style.left = `${position.x}px`;
+            yesBtn.style.top = `${position.y}px`;
+        });
+
+        // Xử lý khi click vào NO
+        noBtn.addEventListener('click', () => {
+            container.classList.add('hidden');
+            congrats.classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
